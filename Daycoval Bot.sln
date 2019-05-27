@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28917.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Presentation", "0 - Presentation", "{57D2A5F0-AB06-4DC3-B9F2-E38CB2E7E2AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Daycoval.DayBot.Presentation.Web", "src\Daycoval.DayBot.Presentation.Web\Daycoval.DayBot.Presentation.Web.csproj", "{B350F269-EE35-4096-9728-AF6929860CCD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B350F269-EE35-4096-9728-AF6929860CCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B350F269-EE35-4096-9728-AF6929860CCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B350F269-EE35-4096-9728-AF6929860CCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B350F269-EE35-4096-9728-AF6929860CCD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B350F269-EE35-4096-9728-AF6929860CCD} = {57D2A5F0-AB06-4DC3-B9F2-E38CB2E7E2AE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ECB640B5-3EFC-419A-86B4-09AAB566C59A}
+	EndGlobalSection
+EndGlobal
