@@ -25,6 +25,22 @@ namespace Daycoval.DayBot.Presentation.Web
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
+
+            bundles.Add(new ScriptBundle("~/bundles/fullcalendar").Include(
+                      "~/Content/fullcalendar/core/main.js",
+                      "~/Content/fullcalendar/interaction/main.js",
+                      "~/Content/fullcalendar/core/locales/pt-br.js",
+                      "~/Content/fullcalendar/daygrid/main.js",
+                      "~/Content/fullcalendar/timegrid/main.js",
+                      "~/Content/fullcalendar/list/main.js",
+                      "~/Scripts/fullcalendar/init.js"));
+
+            bundles.Add(new StyleBundle("~/Content/css/fullcalendar").Include(
+                      "~/Content/fullcalendar/core/main.css",
+                      "~/Content/fullcalendar/daygrid/main.css",
+                      "~/Content/fullcalendar/timegrid/main.css",
+                      "~/Content/fullcalendar/list/main.css"));
+
         }
     }
 }

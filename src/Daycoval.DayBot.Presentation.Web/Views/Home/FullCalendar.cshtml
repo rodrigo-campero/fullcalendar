@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewBag.Title = "FullCalendar";
+}
+
+@section styles {
+    @Styles.Render("~/Content/css/fullcalendar")
+}
+
+<h2>FullCalendar</h2>
+
+<div id='calendar'></div>
+
+@section scripts {
+    @Scripts.Render("~/bundles/fullcalendar")
+}
